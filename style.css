@@ -1,0 +1,33 @@
+body{
+	height:100%;
+	width:100%;
+	background-image:url("book1.jpg");
+
+}
+h1{
+  font-size: 50px;
+	color:red;
+  text-align :center;
+}
+h2{
+	 color:green;
+	 font-size:30px;
+	text-align:center;
+}
+.buttons{
+	
+	text-align:center;
+	color :red;
+}
+.button1 {
+	background-color:blue;
+	color:black;
+}
+.button2{
+	background-color:blue;
+	color:black;
+	
+}
+.form{
+	text-align:center;
+}

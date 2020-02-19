@@ -1,0 +1,45 @@
+<html>
+<head>
+<style>
+   body{
+   background-color: purple;
+   }
+   .buttons{
+     color:red;
+	 background-color:yellow;
+	 margin-left:-40px;
+   }
+   .form{
+   margin-top:150px;
+   }
+ </style>
+ 
+ <script>
+        function function1()
+   {
+     var name1=document.getElementById("uname").value;
+	     var pass1=document.getElementById("pass").value;
+		 
+		 if(name1==pass1)
+		  {
+		    alert("You enter same uname and password");
+		  }
+		  else
+		  {
+		    alert("you enter wrong");
+		  }
+	
+   }
+ 
+ </script>
+</head>
+<body>
+ <div class="form">
+   <form>
+      <center>
+   UserName:<input type="text" id="uname" placeholder="laxman" maxlength="40"><br></br>
+ 
+		password:<input  type="password" id="pass" placeholder="password"maxlength="45"><br></br>
+		<input class="buttons" type="button" id="Submit" onclick="function1()"value="Submit"onclick >
+</body>
+</html>
